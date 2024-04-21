@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page{
+    position: relative;
+    height: 100vw;
+    width: 100vw;
+    background-color: black;
+}
+
+#page>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    background-color: white;
+    width: 50vw;
+    height: 7vh;
+    padding:0px 20px  ;
+}
+
+#page1{
+    position: relative;
+    height: 100vw;
+    width: 100vw;
+    background-color: white;
+}
+
+
+
+
+
